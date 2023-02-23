@@ -1,11 +1,15 @@
 .container{
     display: flex;
     flex-direction: column;
+   background-color:#194d51;
+   color: white;
 }
 
 nav{
     display: flex;
     padding: 30px;
+    justify-content: space-between;
+    color: white;
 }
 .container2{
     display: flex;
@@ -18,7 +22,16 @@ nav{
     display: flex;
 	flex-direction:column;
     align-items: center;
+    
 }
 .round{
     border-radius: 50%;
+}
+.para{
+    width: 400px;
+}
+
+.content{
+    display: flex;
+    justify-content:space-around;
 }
