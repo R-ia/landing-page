@@ -3,14 +3,34 @@
     flex-direction: column;
    background-color:#194d51;
    color: white;
+   padding-bottom:20px ;
 }
 
 nav{
     display: flex;
-    padding: 30px;
+    padding-right: 100px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    height: 50px;
     justify-content: space-between;
     color: white;
+    
 }
+.link{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+   
+}
+.barlink:link, .barlink:visited{  
+    text-decoration: none;
+    color: aliceblue;
+}
+.barlink:hover{
+    color: cyan;
+}
+
 .container2{
     display: flex;
     flex-direction: column;
