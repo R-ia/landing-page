@@ -44,8 +44,16 @@ nav{
     display: flex;
     flex-direction: column;
 }
+.text1{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #103336;
+}
 .img{
   display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 .container5{
     display: flex;
@@ -63,4 +71,12 @@ nav{
 .content{
     display: flex;
     justify-content:space-around;
+}
+
+.container2{
+    background-color:  #a5dee3;
+}
+h2{
+    display: flex;
+    justify-content: center;
 }
