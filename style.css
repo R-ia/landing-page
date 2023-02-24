@@ -80,3 +80,18 @@ h2{
     display: flex;
     justify-content: center;
 }
+
+
+
+.container3{
+    display:flex;
+    justify-content:center;
+    background-color: #ececec;
+}
+.quote{
+    font-size: 32px;
+}
+.by{
+    display: flex;
+    align-items:flex-end;
+}
