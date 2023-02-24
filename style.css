@@ -86,12 +86,15 @@ h2{
 .container3{
     display:flex;
     justify-content:center;
+    align-items:center;
     background-color: #ececec;
+    flex-direction:column;
+   
 }
-.quote{
+.container3 p{
     font-size: 32px;
+    width: 800px;
 }
-.by{
-    display: flex;
-    align-items:flex-end;
+.container3 b{
+    padding-left: 700px;
 }
