@@ -98,3 +98,34 @@ h2{
 .container3 b{
     padding-left: 700px;
 }
+.more{
+    width: 600px;
+    display:flex;
+    background-color: #a5dee3;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.button2{
+    align-items: flex-end;
+}
+.container4{
+    height: 150px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.contents p{
+    margin: 0;
+}
+footer{
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
